@@ -11,7 +11,7 @@ fs.mkdirSync(folderPath);
 }
 
 // Endpoint to create a text file with the current timestamp
-app.get("/createFile", (req, res) => {
+app.post("/createFile", (req, res) => {
 const currentTime = new Date();
 const year = currentTime.getFullYear().toString();
 const month = (currentTime.getMonth() + 1).toString();
