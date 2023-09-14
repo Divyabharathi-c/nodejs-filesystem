@@ -1,0 +1,7 @@
+To create txt file use following endpoint :-
+
+   https://nodejs-filesystem-6d60.onrender.com/createFile  
+
+To read txt file use following endpoint :- 
+
+     https://nodejs-filesystem-6d60.onrender.com/listFiles
